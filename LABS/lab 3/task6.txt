@@ -1,0 +1,13 @@
+Connect internet on base machine
+
+-----------------------------------------------------------
+
+Open any one of the following webistes
+
+http://dictionary.reference.com
+http://www.amazon.com
+http://www.careerbuilder.com
+
+Observe the HTTP request and response in LiveHTTPHeaders.
+
+------------------------------------------------------------

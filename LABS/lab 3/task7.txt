@@ -1,0 +1,34 @@
+Disable Third Party Cookies form Firefox.
+
+In top menu, go to
+
+Edit -> Preferences 
+
+Select Tab Privacy
+
+In history, choose "Use custom settings for history" option.
+
+Selcting that option will show other settings that contain "Accept third-party cookies". Change "Accept third-party cookies" option to "Never".
+
+------------------------------------------------------------
+
+Open
+
+http://www.wtcamerastore.com
+http://www.wtmobilestore.com
+http://www.wtelectronicsstore.com
+http://www.wtshoestore.com
+
+Observe LiveHTTPHeaders.
+
+Click on view details of any products on the above mentioned websites.
+
+Observe LiveHTTPHeaders.
+
+Open "http://www.wtlabelgg.com" and Observe LiveHTTPHeaders.
+
+------------------------------------------------------------
+
+Compare with Task4.
+
+------------------------------------------------------------

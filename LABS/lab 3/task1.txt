@@ -1,0 +1,31 @@
+Open Firefox
+I Top Menu, Select 
+ 	History -> Clear Recent History -> Clear All History (Select All Check Boxes) -> Clear Now
+Close Firefox
+
+-------------------------------------------------------
+Open new Private window in Firefox
+
+Right Click on firefox icon, Select Open a New Private Window.
+
+-------------------------------------------------------
+
+Open "http://www.wtlabelgg.com" first and observe.
+
+-------------------------------------------------------
+
+Now open
+
+http://www.wtcamerastore.com
+http://www.wtmobilestore.com
+http://www.wtelectronicsstore.com
+http://www.wtshoestore.com
+
+Click on view details of any products on the above mentioned websites.
+
+Refresh "http://www.wtlabelgg.com" and observe the difference.
+
+Close browser, reopen it and again open "http://www.wtlabelgg.com" and observe.
+
+--------------------------------------------------------
+

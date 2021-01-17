@@ -1,0 +1,9 @@
+Open elgg website "http://www.wtlabelgg.com"
+
+Capture LiveHTTPHeader. (From Top Menu, Tools -> LiveHTTPHeader)
+
+---------------------------------------------------------
+
+In LiveHTTPHeader, identify third party HTTP requests.
+
+---------------------------------------------------------

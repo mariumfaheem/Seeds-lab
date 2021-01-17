@@ -1,0 +1,37 @@
+Open any one of the following websites 
+
+http://www.wtcamerastore.com
+http://www.wtmobilestore.com
+http://www.wtelectronicsstore.com
+http://www.wtshoestore.com
+
+Click on view details of any product.
+
+Capture LiveHTTPHeader. (From Top Menu, Tools -> LiveHTTPHeader)
+
+---------------------------------------------------------
+
+In LiveHTTPHeader, identify third party cookies and take screenshot.
+
+---------------------------------------------------------
+
+Right click on webpage and select View Page Source and find the request for tracking cookie.
+
+----------------------------------------------------------
+
+Open any one of the following websites 
+
+http://www.wtcamerastore.com
+http://www.wtmobilestore.com
+http://www.wtelectronicsstore.com
+http://www.wtshoestore.com
+
+Click on view details of any product.
+
+Open "http://www.wtlabadserver.com"
+
+Open Firbug (On the right corner of browser). See the difference in Firebug in "http://www.wtlabadserver.com" and any product detail webpage.
+
+Do not refresh product detail webpage.
+
+----------------------------------------------------------

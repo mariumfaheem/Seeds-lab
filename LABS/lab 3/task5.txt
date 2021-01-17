@@ -1,0 +1,26 @@
+Open Firefox private window 
+
+---------------------------------------------------
+
+Open "http://www.wtlabelgg.com" first and observe.
+
+----------------------------------------------------
+
+Now open
+
+http://www.wtcamerastore.com
+http://www.wtmobilestore.com
+http://www.wtelectronicsstore.com
+http://www.wtshoestore.com
+
+Click on view details of any products on the above mentioned websites.
+
+Refresh "http://www.wtlabelgg.com" and observe the difference.
+
+Close browser, reopen it and again open "http://www.wtlabelgg.com" and observe.
+
+------------------------------------------------------
+
+Compare the task with task1. 
+
+------------------------------------------------------

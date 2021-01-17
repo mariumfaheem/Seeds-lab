@@ -1,0 +1,10 @@
+Open the following websites
+
+http://www.wtcamerastore.com
+http://www.wtmobilestore.com
+http://www.wtelectronicsstore.com
+http://www.wtshoestore.com
+
+Click on view details of any product.
+
+Open "www.wtlabadserver.com/preferences.php" in a new tab and observe.

